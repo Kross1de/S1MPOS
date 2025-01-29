@@ -1,3 +1,4 @@
+![banner](https://github.com/Kross1de/S1MPOS/blob/main/banner.png?raw=true)
 # <p align="center">SimpOS<p align="center">
 
 <p align="center">
