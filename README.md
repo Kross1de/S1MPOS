@@ -16,42 +16,42 @@ SimpOS is a pseudo—operating system written in Python. It provides basic file 
 ### Requirements
 - Python 3.x
 - `colorama` library (install with the command below):
-``bash
+```bash
 pip install colorama
-``
+```
 
 ### Installation Steps
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/Kross1de/S1MPos.git
-   ```
+```bash
+git clone https://github.com/Kross1de/S1MPos.git
+```
 
 2. Go to the project directory:
-   ```bash
-   cd S1MPos
-   ```
+```bash
+cd S1MPos
+```
    
 2. Go to the directory of the desired version:
-   ```bash
-   cd S1MP9osV2.1 [LATEST]
-   ```
+```bash
+ cd "S1MP9osV2.1 [LATEST]"
+ ```
 
 3. Start the system:
-   ```bash
-   python S1MP9osV2.1.py 
-   ```
+```bash
+python S1MP9osV2.1.py 
+```
 
 ## Usage
 
 ### Interface
 When you start the system, you will see a welcome menu. Enter commands to interact with the system. Available commands:
 - `HELP` — a list of available commands.
-- `CALCULATOR' is a simple calculator.
+- `CALCULATOR` is a simple calculator.
 - `TIME` — the current time.
-- NOTEPAD is a text editor.
-- `SNAKE`, `PONG', `TIC-TAC-TOE' — games.
-- `SUDO CREDISK' — disk management.
-- 'Q` — log out.
+- `NOTEPAD` — is a text editor.
+- `SNAKE`, `PONG`, `TIC-TAC-TOE` — games.
+- `SUDO CREDISK` — disk management.
+- `Q` — log out.
 
 ### Functionality
 
@@ -97,7 +97,7 @@ SNAKE
 
 #### 4. **System Commands**
 - `TIME`: Shows the current date and time.
-- `RANDINT': Generates a random number from 1 to 100.
+- `RANDINT`: Generates a random number from 1 to 100.
 - `BINARY`: Converts a number to binary format.
 
 Usage example:
@@ -111,12 +111,12 @@ Binary representation: 0b1010
 - New user registration:
 ```bash
 WOULD YOU LIKE (R)EGISTER, (L)OGIN, (Q)UIT? R
-  Enter username: user1
-  Enter password: pass123
-  ```
+Enter username: user1
+Enter password: pass123
+```
 - Log in to the system:
 ```bash
 WOULD YOU LIKE (R)EGISTER, (L)OGIN, (Q)UIT? L
- Enter username: user1
- Enter password: pass123
- ```
+Enter username: user1
+Enter password: pass123
+```
