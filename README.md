@@ -4,7 +4,7 @@
 <p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
   <a href="#"><img src="https://img.shields.io/badge/Python-3.x-blue.svg" alt="Python 3.x"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Version-1.0.0-green.svg" alt="Version 2.1"></a>
+  <a href="#"><img src="https://img.shields.io/badge/Version-2.1.0-green.svg" alt="Version 2.1.0"></a>
 </p>
 
 ## Описание
