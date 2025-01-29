@@ -7,62 +7,62 @@
   <a href="#"><img src="https://img.shields.io/badge/Version-2.1.0-green.svg" alt="Version 2.1.0"></a>
 </p>
 
-## Описание
+## Description
 
-SimpOS — это псевдооперационная система, написанная на Python. Она предоставляет базовые функции управления файловой системой, текстовый редактор, игры и другие утилиты. Версия 2.1 включает улучшенный интерфейс, поддержку синтаксиса для текстового редактора и новые игры.
+SimpOS is a pseudo—operating system written in Python. It provides basic file system management functions, a text editor, games, and other utilities. Version 2.1 includes an improved interface, syntax support for a text editor, and new games.
 
-## Установка
+## Installation
 
-### Требования
+### Requirements
 - Python 3.x
-- Библиотека `colorama` (установите командой ниже):
-  ```bash
-  pip install colorama
-  ```
+- `colorama` library (install with the command below):
+``bash
+pip install colorama
+``
 
-### Шаги установки
-1. Клонируйте репозиторий:
+### Installation Steps
+1. Clone the repository:
    ```bash
    git clone https://github.com/Kross1de/S1MPos.git
    ```
 
-2. Перейдите в директорию проекта:
+2. Go to the project directory:
    ```bash
    cd S1MPos
    ```
    
-2. Перейдите в директорию желаемой версии:
+2. Go to the directory of the desired version:
    ```bash
    cd S1MP9osV2.1 [LATEST]
    ```
 
-3. Запустите систему:
+3. Start the system:
    ```bash
    python S1MP9osV2.1.py 
    ```
 
-## Использование
+## Usage
 
-### Интерфейс
-При запуске системы вы увидите приветственное меню. Введите команды для взаимодействия с системой. Доступные команды:
-- `HELP` — список доступных команд.
-- `CALCULATOR` — простой калькулятор.
-- `TIME` — текущее время.
-- `NOTEPAD` — текстовый редактор.
-- `SNAKE`, `PONG`, `TIC-TAC-TOE` — игры.
-- `SUDO CREDISK` — управление дисками.
-- `Q` — выход из системы.
+### Interface
+When you start the system, you will see a welcome menu. Enter commands to interact with the system. Available commands:
+- `HELP` — a list of available commands.
+- `CALCULATOR' is a simple calculator.
+- `TIME` — the current time.
+- NOTEPAD is a text editor.
+- `SNAKE`, `PONG', `TIC-TAC-TOE' — games.
+- `SUDO CREDISK' — disk management.
+- 'Q` — log out.
 
-### Функционал
+### Functionality
 
-#### 1. **Управление дисками**
-Команда `SUDO CREDISK` открывает меню управления дисками. Вы можете:
-- Создавать диски (`CREATE DISK`).
-- Просматривать список дисков (`LIST DISKS`).
-- Выбирать диск для работы (`SELECT DISK`).
-- Создавать, редактировать, удалять файлы и директории.
+#### 1. **Disk Management**
+The SUDO CREDISK command opens the disk management menu. You can:
+- Create disks (`CREATE DISK').
+- View the list of disks (`LIST DISKS').
+- Select a disk to work on (`SELECT DISK').
+- Create, edit, and delete files and directories.
 
-Пример создания диска:
+Example of creating a disk:
 ```bash
 SUDO CREDISK
 1. CREATE DISK
@@ -70,13 +70,13 @@ Enter disk name: diskC
 Enter size in KB: 512
 ```
 
-#### 2. **Текстовый редактор (Notepad)**
-Команда `NOTEPAD` открывает текстовый редактор. Поддерживает:
-- Создание и редактирование файлов.
-- Сохранение файлов на выбранный диск.
-- Подсветку синтаксиса для `.py` и `.c` файлов.
+#### 2. **Text Editor (Notepad)**
+The NOTEPAD command opens a text editor. Supports:
+- Create and edit files.
+- Save files to the selected disk.
+- Syntax highlighting for `.py` and `.c` files.
 
-Пример использования:
+Usage example:
 ```bash
 NOTEPAD
 1. CREATE NEW FILE
@@ -84,39 +84,39 @@ Enter filename to create: example.py
 Start typing (type ':w' to save, ':q' to quit):
 ```
 
-#### 3. **Игры**
-В системе доступны следующие игры:
-- **Snake**: Классическая змейка.
-- **Pong**: Игра в пинг-понг с AI противником.
-- **Tic-Tac-Toe**: Крестики-нолики против бота.
+#### 3. **Games**
+The following games are available in the system:
+- **Snake**: Classic snake.
+- **Pong**: A ping pong game with an AI opponent.
+- **Tic-Tac-Toe**: Tic-Tac-toe vs bot.
 
-Запуск игры:
+Launching the game:
 ```bash
 SNAKE
 ```
 
-#### 4. **Системные команды**
-- `TIME`: Показывает текущую дату и время.
-- `RANDINT`: Генерирует случайное число от 1 до 100.
-- `BINARY`: Преобразует число в двоичный формат.
+#### 4. **System Commands**
+- `TIME`: Shows the current date and time.
+- `RANDINT': Generates a random number from 1 to 100.
+- `BINARY`: Converts a number to binary format.
 
-Пример использования:
+Usage example:
 ```bash
 BINARY
 Enter number: 10
 Binary representation: 0b1010
 ```
 
-#### 5. **Управление пользователями**
-- Регистрация нового пользователя:
-  ```bash
-  WOULD YOU LIKE (R)EGISTER, (L)OGIN, (Q)UIT? R
+#### 5. **User Management**
+- New user registration:
+```bash
+WOULD YOU LIKE (R)EGISTER, (L)OGIN, (Q)UIT? R
   Enter username: user1
   Enter password: pass123
   ```
-- Вход в систему:
-  ```bash
-  WOULD YOU LIKE (R)EGISTER, (L)OGIN, (Q)UIT? L
-  Enter username: user1
-  Enter password: pass123
-  ```
+- Log in to the system:
+```bash
+WOULD YOU LIKE (R)EGISTER, (L)OGIN, (Q)UIT? L
+ Enter username: user1
+ Enter password: pass123
+ ```
